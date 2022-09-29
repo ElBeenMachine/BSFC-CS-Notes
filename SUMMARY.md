@@ -27,3 +27,8 @@
 
 * [Virtual Storage (Cloud Storage)](storage/virtual-storage-cloud-storage.md)
 * [Input, Output, and Storage Devices](storage/input-output-and-storage-devices.md)
+
+## 📔 Software
+
+* [Programming Paradigms](software/programming-paradigms.md)
+* [Polymorphism](software/polymorphism.md)
