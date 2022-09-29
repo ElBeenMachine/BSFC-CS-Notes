@@ -32,3 +32,4 @@
 
 * [Programming Paradigms](software/programming-paradigms.md)
 * [Polymorphism](software/polymorphism.md)
+* [Development Methodologies](software/development-methodologies.md)
