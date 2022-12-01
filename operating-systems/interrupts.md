@@ -1,6 +1,6 @@
 # Interrupts
 
-### About
+## **About**
 
 * The purpose of the CPU is to fetch, decode and execute instructions.
 * However, peripherals and software may need attention and therefore need to signal the CPU. There are two ways of doing this:
@@ -13,20 +13,20 @@
   * When the ISR is finished, the address in the stack can then be popped off the stack into the PC, and then the CPU knows where to continue executing instructions.
 * Interrupts always have a higher priority than the current execution.
 
-### **Types of Interrupts + Examples**
+## **Types of Interrupts + Examples**
 
-#### **Hardware**
+### **Hardware**
 
 * Power / reset button is pressed
 * Memory parity error (corrupt memory)
 
-#### **Software**
+### **Software**
 
 * Illegal instruction encounter
 * Arithmetic overflow
 * New logon request
 
-#### **Input / Output**
+### **Input / Output**
 
 * Buffer nearly empty
 * Signal the completion of a data transfer to / from a device.

@@ -1,6 +1,6 @@
 # Development Methodologies
 
-## The Process
+## **The Process**
 
 * When writing a program, you are going through a number of distinct problems.
 * Together, these phases are known as the Systems Development Life Cycle (SDLC):

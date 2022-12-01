@@ -1,6 +1,6 @@
 # The Need for Operating Systems
 
-### About
+## **About**
 
 An operating system is software that manages the computer (the hardware, the software, the security of the system and the user interface).
 

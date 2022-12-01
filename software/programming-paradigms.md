@@ -1,6 +1,6 @@
 # Programming Paradigms
 
-## About
+## **About**
 
 * A paradigm simply means a way of thinking.
 * Programming paradigms include procedural, object orientated, assembly, functional and declarative.
@@ -9,7 +9,7 @@
 * Some problems are better suited to being solved in a certain paradigm.
 * This makes languages written in certain paradigms better suited to solving certain problems.
 
-### **Procedural**
+## **Procedural**
 
 * One of the most common procedural paradigms in use.
 * Sometimes referred to as imperative languages. This means to give an order.
@@ -24,7 +24,7 @@
   * Abstract data structures such as stack and queues
 * It uses modular techniques to split large problems into manageable chunks.
 
-### **Assembly Language**
+## **Assembly Language**
 
 * Assembly languages are known as low level languages.
 * Low level instruction - opcode + operand.
@@ -33,13 +33,13 @@
 * As assembly language is translated directly into machine code, these instructions sets allow us to represent the actual binary 1s and 0s by using short codes known as mnemonics.
 * This is so we don't actually have to remember or code the actual binary values themselves.
 
-### **Functional**
+## **Functional**
 
 * Languages such as Hascal.
 * Programs consist of functions that accept data and return data.
 * Used in big data, the concept of manipulating huge amounts of data.
 
-### **Declarative**
+## **Declarative**
 
 * Supported by languages such as SQL, where you write statements that describe the problem to be solved, and the language implementation decides the best way of solving it.
 * SQL is a standard language used to read/write from/to databases.
@@ -85,6 +85,6 @@ It can’t be accidentally altered by another part of the program without using 
 * Because it is public, it can be called by other parts of the program and thus it will be able to change the internal, private attribute.
 * However, you now have complete control as you're the one writing the code in that method which means the attributes can only be changed in the way you specify.
 
-#### **Polymorphism**
+### **Polymorphism**
 
 * Polymorphism makes sure that when a symbol or function have different meanings the right meaning is chosen based on the context.

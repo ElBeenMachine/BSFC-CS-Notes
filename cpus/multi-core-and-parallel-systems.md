@@ -1,6 +1,6 @@
 # Multi-Core and Parallel Systems
 
-### **Multicore Processor**
+## **Multicore Processor**
 
 * Single chip that contains two or more independent processing units (cores).
 * Each core can execute ordinary CPU instructions on their own.
@@ -12,7 +12,7 @@
 * Typically, the gains in performance will be limited to the parts of the program that have been designed to run in parallel over the multiple cores.
 * This is known as Amdahl’s law.
 
-### **Parallel Processing**
+## **Parallel Processing**
 
 * Parallel processing of program instructions by dividing them amongst multiple processors or processor cores, with the objective of running the overall program in less time.
 * Often uses pipelining.

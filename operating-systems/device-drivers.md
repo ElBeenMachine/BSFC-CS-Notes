@@ -1,6 +1,6 @@
 # Device Drivers
 
-### About
+## **About**
 
 * Device driver definition: “Software that tells the operating system how to communicate with a device.”
 * Your computer must be able to output to a wide range of devices.

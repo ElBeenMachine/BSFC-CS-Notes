@@ -1,6 +1,6 @@
 # Memory Management
 
-### **Paging**
+## **Paging**
 
 * The memory is divided into smaller sections which are all the same size (each chunk called a page).
 * Each program occupies a different number of pages.
@@ -8,29 +8,29 @@
 * The operating system would use a page table to keep track of where in memory each of the pages are stored.
 * This method therefore does not require all the pages to be stored continuously.
 
-### **Segmentation**
+## **Segmentation**
 
 * Does not consider what the instructions are doing in the sections of code that are separated.
 * Keeps logical divisions of programs together rather than having fixed page sizes.
 * Segmentation is slower than paging.
 
-### **Similarities**
+## **Similarities**
 
 * Both allow programs to run despite insufficient memory.
 * Both pages and segments are stored on disks.
 * Both pages and segments are transferred into memory when needed.
 
-### **Differences**
+## **Differences**
 
 * Pages are a fixed size whereas segments are varied sizes.
 * Pages are made to fit sections of memory whereas segments are complete sections of the program.
 * Pages are physical divisions whereas segments are logical divisions.
 
-### **Problems with Both**
+## **Problems with Segmentation and Paging**
 
 * If physical memory is running low, virtual memory must be used. If more time is spent moving pages / segments in and out of the memory on the disk (thrashing) than processing the instructions, the computer will be slow.
 
-#### **Virtual Memory**
+## **Virtual Memory**
 
 * Moves the sections of the programs that are not being used out on the hard drive.
 * When the sections of the program need to be used again they are sent back into the main memory.

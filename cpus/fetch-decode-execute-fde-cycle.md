@@ -1,6 +1,6 @@
 # Fetch-Decode-Execute (FDE) Cycle
 
-### **Fetch**
+## **Fetch**
 
 * The program counter points to the next instruction to be fetched.
 * The contents of PC are sent / copied into memory address register.
@@ -9,12 +9,12 @@
 * The content of address in memory is accessed and can now be transferred using the data bus into the MDR.
 * If it is an instruction, the contents of the location in memory are sent to the current instruction register using the data bus.
 
-### **Decode**
+## **Decode**
 
 * Instruction in the CIR is decoded by the decode unit.
 * Opcode gives the command; operand gives the data / address.
 
-### **Execute**
+## **Execute**
 
 * Address of the data is sent to the MAR which then sends it to the RAM.
 * CU sends a signal down the control bus to read the data.

@@ -1,6 +1,6 @@
 # Role and Components of A CPU
 
-### Role of the CPU
+## **Role of the CPU**
 
 The CPU carries out the FDE cycle
 
@@ -10,18 +10,18 @@ The CPU carries out the FDE cycle
 * Perform arithmetic operations
 * Perform logical operations
 
-### Components in a CPU
+## **Components in a CPU**
 
 * Registers are memory that hold any instructions, data and/or memory addresses that are about to be used by the CPU.
 * Buses - Parallel wires connecting two or more components of the CPU.
 
-#### Main Components
+### **Main Components**
 
 * Arithmetic logic unit - Completes arithmetic and logic operations such as adding or subtracting.
 * Control Unit - Sends signals to control how the processor runs, and controls how data is moved around parts of the CPU and memory.
 * Cache - Very fast memory in the CPU that is filled with frequently / next to be accessed instructions that are built into the CPU or placed on the motherboard.
 
-#### Registers
+### **Registers**
 
 * Program Counter - Stores address of next instruction
 * Memory Address Register - Stores address of data to be fetched from or sent to memory.
@@ -30,13 +30,13 @@ The CPU carries out the FDE cycle
 * Current Instruction Register - Stores actual instruction being decoded or executed.
 * Interrupt Register - Checks to see if any interrupts require servicing.
 
-#### Buses
+### **Buses**
 
 * Address Bus - unidirectional, carries the address of data that is in the memory address register from the processor to memory.
 * Data Bus - Bidirectional, carries data between the processor and memory.
 * Control Bus - Bidirectional, carries control signal between processor and the components.
 
-#### Control Unit
+### **Control Unit**
 
 * Decodes instructions.
 * Sends control signals down the control bus to coordinate the movement of data through the processor and execution of instructions.

@@ -2,7 +2,7 @@
 
 ## **Von Neumann Architecture**
 
-### **Components**
+## **Components**
 
 * Control Unit
 * Arithmetic Logic Unit
@@ -10,7 +10,7 @@
 * Registers
 * Input / Outputs
 
-### **Design**
+## **Design**
 
 * Instructions and the program data are stored in the same memory.
 * It follows a linear fetch-decode-execute cycle.
@@ -24,7 +24,7 @@
 * Similarly, a single address bus is used to transfer the address of data and instructions.
 * The same word length is used for all memory, whether it holds data or instructions.
 
-### **Von Neumann Bottleneck**
+## **Von Neumann Bottleneck**
 
 * Time required to move instructions from the CPU to the main memory and back can cause latency
 * The CPU must wait a certain time which can be quite long. It could be shorter to access registers.
@@ -39,4 +39,4 @@
 * Reading (fetching) data and writing data can be done at the same time as reading an instruction
 * Tends to be used in RISC processors.
 
-Modern high performance CPU chips incorporated aspects of both Von Neumann and Harvard architectures.
+Modern high performance CPU chips incorporate aspects of both Von Neumann and Harvard architectures.

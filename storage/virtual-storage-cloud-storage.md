@@ -1,7 +1,6 @@
 # Virtual Storage (Cloud Storage)
 
-
-
+## **About**
 * Often referred to as cloud storage.
 * Data can be accessed from any location with internet access.
 * Data can be accessed from any location with internet access.
