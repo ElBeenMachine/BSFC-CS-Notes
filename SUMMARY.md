@@ -23,13 +23,13 @@
 * [Memory Management](operating-systems/memory-management.md)
 * [Processor Scheduling](operating-systems/processor-scheduling.md)
 
-## 📔 Storage
-
-* [Virtual Storage (Cloud Storage)](storage/virtual-storage-cloud-storage.md)
-* [Input, Output, and Storage Devices](storage/input-output-and-storage-devices.md)
-
 ## 📔 Software
 
 * [Programming Paradigms](software/programming-paradigms.md)
 * [Polymorphism](software/polymorphism.md)
 * [Development Methodologies](software/development-methodologies.md)
+
+## 📔 Storage
+
+* [Virtual Storage (Cloud Storage)](storage/virtual-storage-cloud-storage.md)
+* [Input, Output, and Storage Devices](storage/input-output-and-storage-devices.md)
